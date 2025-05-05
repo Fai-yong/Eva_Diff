@@ -115,26 +115,26 @@ import mllm_func
 # ---------- 工具函数 ----------
 def load_result_json(json_path):
     if os.path.exists(json_path):
-        with open(json_path, "r", encoding="utf-8") as f:
+        with open(json_path, "r") as f:
             return json.load(f)
     return {}
 
 def save_result_json(json_path, result_data):
-    with open(json_path, "w", encoding="utf-8") as f:
-        json.dump(result_data, f, indent=2, ensure_ascii=False)
+    with open(json_path, "w") as f:
+        json.dump(result_data, f, indent=2)
 
 def get_error_images(result_data):
     return [img_name for img_name, val in result_data.items() if val is None]
 
 
 # ---------- VLM生成函数 ----------
-def generate_response_for_image(image_path, template, model, processor, eval_func, device_index):
+def generate_response_for_image(image_path, template, model, processor, device_index):
     image = Image.open(image_path)
     conversation = eval_func.build_mllm_conversation(template)
     prompt = processor.apply_chat_template(conversation, add_generation_prompt=True)
 
     inputs = processor(images=image, text=prompt, return_tensors="pt").to(device_index, torch.float16)
-    output = model.generate(**inputs, max_new_tokens=2000)
+    output = model.generate(**inputs, max_new_tokens=4000)
     response = processor.decode(output[0], skip_special_tokens=True)
 
     json_response = eval_func.get_json_resp(response)
@@ -142,21 +142,20 @@ def generate_response_for_image(image_path, template, model, processor, eval_fun
 
 
 # ---------- 重试并替换结果 ----------
-def regenerate_missing_results(result_json_path, images_dir, templat_list, model, processor, eval_func, device_index, max_retries=3):
+def regenerate_missing_results(result_json_path, images_dir, templat_list, model, processor, device_index):
     result_data = load_result_json(result_json_path)
-    total_images = len(templat_list)
+    bad_image_keys = get_error_images(result_data)
 
     error_dict = {"total": 0}
 
-    for i in tqdm(range(total_images), desc="Processing images"):
-        img_name = f"{i}.png"
-        if img_name in result_data and result_data[img_name] is not None:
-            continue  # 已存在正常结果
-
+    for image_key in tqdm(bad_image_keys, desc="Regenerating images", unit="image"):
+        error_dict["total"] += 1
+        
         retries = 0
         success = False
-        while retries < max_retries and not success:
-            image_path = os.path.join(images_dir, img_name)
+        while not success:
+            image_path = os.path.join(images_dir, image_key)
+            i = int(image_key.split(".")[0])
             template = templat_list[i]
 
             json_response = generate_response_for_image(
@@ -164,40 +163,48 @@ def regenerate_missing_results(result_json_path, images_dir, templat_list, model
                 template=template,
                 model=model,
                 processor=processor,
-                eval_func=eval_func,
                 device_index=device_index
             )
-
-            if isinstance(json_response, dict):
-                result_data[img_name] = json_response
-                success = True
-            else:
+            if json_response == None:
                 retries += 1
 
-        if not success:
-            result_data[img_name] = None
-            error_dict["total"] += 1
+            else: 
+                result_data[image_key] = json_response
+                retries += 1
+                success = True
 
-        error_dict[img_name] = retries
+        error_dict[image_key] = retries
 
     save_result_json(result_json_path, result_data)
+    
     return error_dict
 
-
+import argparse
 # ---------- 主函数 ----------
 def main():
+
+    parser = argparse.ArgumentParser(description="MLLM 图像评估脚本")
+    parser.add_argument("--device_index", type=int, default=2, help="GPU设备索引")
+    parser.add_argument("--diffusion_base", type=str, default='sd1-5', help="扩散模型基础路径")
+    parser.add_argument("--mllm_model", type=str, default='llava-ov', help="多模态大语言模型名称")
+    parser.add_argument('--images_dir', type=str, default='sd1-5/img_output/tuned/hands', help='图像目录')
+    parser.add_argument("--save_path", type=str, default='sd1-5/results', help="结果保存路径")
+
+    args = parser.parse_args()
+
     # ---- 参数设置 ----
-    device_index = 2
-    diffusion_base = 'sd1-5'
-    mllm_model = 'llava-ov'
+    device_index = args.device_index
+    diffusion_base = args.diffusion_base
+    mllm_model = args.mllm_model
+    images_dir = args.images_dir
+    save_path = args.save_path
     template_file = "json/llava_template.json"
 
     model_path = f'mllm_models/{mllm_model}'
-    save_path = f'{diffusion_base}/results/hands'
-    images_dir = f"{diffusion_base}/img_output/tuned/hands"
-    result_file = f'{save_path}/llava_ov_eval_results.json'
+    result_file = f'{save_path}/{mllm_model}_eval_results.json'
 
-    os.makedirs(save_path, exist_ok=True)
+    # ---- 结果文件 ----
+    print(f"Loading result file: {result_file}")
 
     # ---- 模型加载 ----
     model = mllm_func.Llava(model_path=model_path).to(device_index)
@@ -213,14 +220,12 @@ def main():
         templat_list=templat_list,
         model=model,
         processor=processor,
-        eval_func=eval_func,
-        device_index=device_index,
-        max_retries=3
+        device_index=device_index
     )
 
     # ---- 记录错误情况 ----
-    error_summary_file = os.path.join(save_path, "error_summary.json")
-    with open(error_summary_file, "w", encoding="utf-8") as f:
+    error_summary_file = os.path.join(save_path, f"{mllm_model}_error_summary.json")
+    with open(error_summary_file, "w") as f:
         json.dump(error_dict, f, indent=2)
 
     print(f"Finished. Final error count: {error_dict['total']}")

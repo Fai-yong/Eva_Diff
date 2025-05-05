@@ -126,7 +126,7 @@ def build_mllm_conversation(template):
                 {"type": "text", "text": (
                     "Please analyze this image and output the results in the following JSON format:\n"
                     "Do not include any additional explanations or redundant text. Make sure the JSON output is valid:\n"
-                    f"output_format: {json.dumps(template['response_example'], indent=4)}"
+                    f"{json.dumps(template['response_example'], indent=4)}"
                 )}
             ]
         }
@@ -344,6 +344,9 @@ def get_json_resp(response):
             return parsed_output
         except json.JSONDecodeError as e:
             print("JSON 解析错误:", e)
+            print("原始响应:\n", response)
+            
     else:
         print("未匹配到 ```json 代码块")
+        print("原始响应:\n", response)
         return None

@@ -1,5 +1,5 @@
 import argparse
-from transformers import AutoProcessor, LlavaOnevisionForConditionalGeneration
+from transformers import AutoProcessor, LlavaOnevisionForConditionalGeneration, AutoTokenizer
 import torch
 from PIL import Image
 import os
@@ -18,7 +18,17 @@ def parse_args():
     
     # 可选参数
     parser.add_argument('--mllm_model', type=str, default='llava-ov',
-                      choices=['llava-ov','llava-1_6', 'qwen2_5-vl', 'qwen2-vl'],
+                      choices=['llava-ov',
+                               'llava-1_6', 
+                               'qwen2_5-vl', 
+                               'qwen2-vl',
+                               'intern_vl-3_8b',
+                               'intern_vl-3_9b',
+                               'inrern_vl-2_5_8b',
+                               'intern_vl-2_5_8b_mpo',
+                               'intern_vl-2_5_4b_mpo',
+                               'minicpm_o_2_6'
+                               ],
                       help='选择使用的MLLM模型类型（默认：llava-ov）')
     parser.add_argument('--model_path', type=str, 
                       default='mllm_models/llava-ov',
@@ -43,6 +53,7 @@ def load_model(args):
     if args.mllm_model == 'llava-ov' or args.mllm_model == 'llava-1_6':
         model = mllm_func.Llava(model_path=f'mllm_models/{args.mllm_model}').to(args.device_index)
         processor = AutoProcessor.from_pretrained(f'mllm_models/{args.mllm_model}')
+
     elif args.mllm_model == 'qwen2_5-vl' :
         max_memory = {args.device_index: "23GB"}
         
@@ -54,6 +65,15 @@ def load_model(args):
         
         model = mllm_func.Qwen_2vl(max_memory, model_path=f'mllm_models/{args.mllm_model}')
         processor = AutoProcessor.from_pretrained(f'mllm_models/{args.mllm_model}')
+    
+    elif 'intern_vl' in args.mllm_model:
+
+        model = mllm_func.intern_vl(model_path=f'mllm_models/{args.mllm_model}').to(args.device_index)
+        tokenizer = AutoTokenizer.from_pretrained(f'mllm_models/{args.mllm_model}')
+
+    elif args.mllm_model == 'minicpm_o_2_6':
+        model = mllm_func.minicpm(model_path=f'mllm_models/{args.mllm_model}').to(args.device_index)
+        tokenizer = AutoTokenizer.from_pretrained(f'mllm_models/{args.mllm_model}')
     else:
         raise ValueError(f"Unsupported model type: {args.mllm_model}")
 
@@ -82,28 +102,29 @@ def main():
     with torch.no_grad():
         for img_file in tqdm(image_files, desc="评估进度"):
             img_path = os.path.join(args.images_dir, img_file)
-            image = Image.open(img_path)
+            # image = Image.open(img_path).convert("RGB")
             
-            # 获取对应模板
-            idx = int(os.path.splitext(img_file)[0])
-            conversation = eval_func.build_mllm_conversation(template_list[idx])
+            # # 获取对应模板
+            # idx = int(os.path.splitext(img_file)[0])
+            # conversation = eval_func.build_mllm_conversation(template_list[idx])
             
-            # 生成输入
-            prompt = processor.apply_chat_template(conversation, add_generation_prompt=True)
-            inputs = processor(
-                images=image,
-                text=prompt,
-                return_tensors="pt"
-            ).to(args.device_index, torch.float16 if args.fp16 else torch.float32)
+            # # 生成输入
+            # prompt = processor.apply_chat_template(conversation, add_generation_prompt=True)
+            # inputs = processor(
+            #     images=image,
+            #     text=prompt,
+            #     return_tensors="pt"
+            # ).to(args.device_index, torch.float16 if args.fp16 else torch.float32)
+
             
-            # 模型推理
-            output = model.generate(**inputs, max_new_tokens=args.max_new_tokens)
+            # # 模型推理
+            # output = model.chat(**inputs, max_new_tokens=args.max_new_tokens)
             response = processor.decode(output[0], skip_special_tokens=True)
             
             # 保存结果
             all_results[img_file] = eval_func.get_json_resp(response)
 
-
+            break 
     # 保存结果
     with open(result_file, 'w') as f:
         json.dump(all_results, f, indent=2)
