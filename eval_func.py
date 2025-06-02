@@ -162,7 +162,7 @@ import torch
 
 
 
-def calculate_hybrid_metrics(image_path, llm_json_output, original_prompt, clip_model):
+def calculate_hybrid_metrics(image_path, llm_json_output, original_prompt, clip_model=None):
     """
     增强版混合指标计算
     新增指标：
@@ -170,16 +170,18 @@ def calculate_hybrid_metrics(image_path, llm_json_output, original_prompt, clip_
     - 关系有效性 (Relation Validity)
     - 逻辑矛盾检测 (Logical Contradictions)
     """
-    # 计算CLIP文本-图像相似度
-    image = Image.open(image_path)
-    image_emb = clip_model.encode(image)
-    text_emb = clip_model.encode(original_prompt)
-    
-    # 转换为 PyTorch Tensor
-    image_emb = torch.tensor(image_emb, dtype=torch.float32)
-    text_emb = torch.tensor(text_emb, dtype=torch.float32)
+    # # 计算CLIP文本-图像相似度
+    # print("Calculating clip-score ...")
 
-    clip_score = torch.nn.functional.cosine_similarity(image_emb, text_emb, dim=0).item()
+    # image = Image.open(image_path)
+    # image_emb = clip_model.encode(image)
+    # text_emb = clip_model.encode(original_prompt)
+    
+    # # 转换为 PyTorch Tensor
+    # image_emb = torch.tensor(image_emb, dtype=torch.float32)
+    # text_emb = torch.tensor(text_emb, dtype=torch.float32)
+
+    # clip_score = torch.nn.functional.cosine_similarity(image_emb, text_emb, dim=0).item()
     
     # 解析LLM输出
     eval_data = llm_json_output
@@ -190,6 +192,7 @@ def calculate_hybrid_metrics(image_path, llm_json_output, original_prompt, clip_
     
     for obj in eval_data["objects"]:
         # 对象存在性
+        # obj["present"] or obj["valid"] is true
         if obj["present"]:
             matched_elements += 1
             # 属性匹配检查
@@ -203,40 +206,42 @@ def calculate_hybrid_metrics(image_path, llm_json_output, original_prompt, clip_
     semantic_coverage = matched_elements / total_elements if total_elements > 0 else 0
 
     # ================== 2. 关系有效性 ==================
-    valid_relations = sum(1 for rel in eval_data["relations"] if rel["valid"])
-    relation_validity = valid_relations / len(eval_data["relations"]) if eval_data["relations"] else 1.0
+    # if relations else valid_relations = 0
+    if "relations" in eval_data:
+        valid_relations = sum(1 for rel in eval_data["relations"] if rel["valid"]) 
+        r_num = len(eval_data["relations"])
+        relation_validity = valid_relations / r_num if r_num > 0 else 0
+    else:
+        relation_validity = 0
 
     # ================== 3. 风格一致性 ==================
     style_score = eval_data["style_consistency"]["score"] / 5  # 归一化到0-1
-    hybrid_style_score = 0.6 * style_score + 0.4 * clip_score
+    # hybrid_style_score = 0.6 * style_score + 0.4 * clip_score
 
     # ================== 4. 逻辑矛盾检测 ==================
-    contradiction_penalty = 0
-    # 检测常见矛盾模式（可扩展）
-    for obj in eval_data["objects"]:
-        attrs = obj.get("attributes", {})
-        # 示例检测：光照方向矛盾
-        if "light source" in attrs:
-            if ("sun" in attrs["light source"]) and ("shadow_direction" in attrs):
-                if attrs.get("shadow_direction") == "toward light source":
-                    contradiction_penalty += 0.2
-    logical_consistency = max(0, 1 - contradiction_penalty)
+    # contradiction_penalty = 0
+    # # 检测常见矛盾模式（可扩展）
+    # for obj in eval_data["objects"]:
+    #     attrs = obj.get("attributes", {})
+    #     # 示例检测：光照方向矛盾
+    #     if "light source" in attrs:
+    #         if ("sun" in attrs["light source"]) and ("shadow_direction" in attrs):
+    #             if attrs.get("shadow_direction") == "toward light source":
+    #                 contradiction_penalty += 0.2
+    # logical_consistency = max(0, 1 - contradiction_penalty)
 
     # ================== 综合得分 ==================
-    composite_score = (
-        0.4 * semantic_coverage +
-        0.3 * relation_validity +
-        0.2 * hybrid_style_score +
-        0.1 * logical_consistency
-    )
+    # composite_score = (
+    #     0.4 * semantic_coverage +
+    #     0.3 * relation_validity +
+    #     0.2 * hybrid_style_score +
+    #     0.1 * logical_consistency
+    # )
 
     return {
-        "clip_score": round(clip_score, 4),
         "semantic_coverage": round(semantic_coverage, 4),
         "relation_validity": round(relation_validity, 4),
-        "hybrid_style_score": round(hybrid_style_score, 4),
-        "logical_consistency": round(logical_consistency, 4),
-        "composite_score": round(composite_score, 4)
+        "style_score": round(style_score, 4)
     }
 
 
