@@ -2,2296 +2,3214 @@
   "0.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.3333,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 10
   },
   "10.png": {
     "semantic_coverage": 0.6667,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 6
   },
   "100.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 2
   },
   "102.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 5,
+    "total_attrs": 17
   },
   "103.png": {
-    "semantic_coverage": 1.0,
+    "semantic_coverage": 0.75,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 4
   },
   "104.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 4
   },
   "105.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 5
   },
   "107.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 16
   },
   "108.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 4
   },
   "109.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 7
   },
   "11.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 14
   },
   "111.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 11
   },
   "114.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.3333,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 3
   },
   "115.png": {
-    "semantic_coverage": 0.96,
+    "semantic_coverage": 0.64,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 9,
+    "total_attrs": 25
   },
   "116.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 6
   },
   "117.png": {
     "semantic_coverage": 0.875,
     "relation_validity": 0.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 8
   },
   "118.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 8
   },
   "119.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 8
   },
   "12.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.3333,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 4
   },
   "120.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 6
   },
   "121.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 11
   },
   "122.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 13
   },
   "123.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 9
   },
   "124.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 8
   },
   "125.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 5,
+    "total_attrs": 20
   },
   "126.png": {
-    "semantic_coverage": 0.8571,
+    "semantic_coverage": 0.5714,
     "relation_validity": 0.75,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 7
   },
   "127.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 5
   },
   "128.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 13
   },
   "13.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 6,
+    "total_attrs": 27
   },
   "130.png": {
     "semantic_coverage": 0.0,
     "relation_validity": 0.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 7,
+    "total_attrs": 7
   },
   "131.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 6
   },
   "132.png": {
     "semantic_coverage": 0.5714,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 7
   },
   "133.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 11
   },
   "134.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 9
   },
   "135.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 4
   },
   "136.png": {
     "semantic_coverage": 0.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 5,
+    "total_attrs": 5
   },
   "137.png": {
     "semantic_coverage": 0.7,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 5,
+    "total_attrs": 10
   },
   "139.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 4
   },
   "14.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.3333,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 7
   },
   "140.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 6,
+    "total_attrs": 24
   },
   "142.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 9
   },
   "144.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 17
   },
   "145.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 6
   },
   "146.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 4
   },
   "147.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 4
   },
   "148.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 10
   },
   "149.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 9
   },
   "15.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 3
   },
   "150.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 9
   },
   "151.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 13
   },
   "152.png": {
     "semantic_coverage": 0.6667,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 6
   },
   "153.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 7
   },
   "154.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 4
   },
   "156.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 7
   },
   "157.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 8,
+    "total_attrs": 22
   },
   "158.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 8
   },
   "16.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 7
   },
   "161.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 3
   },
   "162.png": {
     "semantic_coverage": 0.625,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 8
   },
   "163.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 12
   },
   "164.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 5,
+    "total_attrs": 18
   },
   "165.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 12
   },
   "166.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 4
   },
   "167.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 11
   },
   "168.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 13
   },
   "169.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 7
   },
   "170.png": {
-    "semantic_coverage": 0.5,
+    "semantic_coverage": 0.3333,
     "relation_validity": 0.3333,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 6
   },
   "171.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 12
   },
   "172.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 6
   },
   "175.png": {
     "semantic_coverage": 0.8333,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 6
   },
   "176.png": {
-    "semantic_coverage": 1.0,
+    "semantic_coverage": 0.6667,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 9,
+    "total_attrs": 27
   },
   "177.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 9
   },
   "178.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 13
   },
   "18.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 14
   },
   "180.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 4
   },
   "181.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 14
   },
   "182.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.25,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 12
   },
   "183.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.6667,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 6
   },
   "184.png": {
     "semantic_coverage": 0.8571,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 7
   },
   "185.png": {
     "semantic_coverage": 0.4286,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 5,
+    "total_attrs": 7
   },
   "186.png": {
     "semantic_coverage": 0.6667,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 5,
+    "total_attrs": 9
   },
   "187.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 4
   },
   "188.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 4
   },
   "189.png": {
     "semantic_coverage": 0.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 2
   },
   "19.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 13
   },
   "190.png": {
-    "semantic_coverage": 1.0,
+    "semantic_coverage": 0.4,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 5
   },
   "191.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 6,
+    "total_attrs": 18
   },
   "193.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 16
   },
   "194.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 8
   },
   "195.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 4
   },
   "196.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 9
   },
   "197.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 12
   },
   "198.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 6
   },
   "199.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.3333,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 3
   },
   "2.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 10
   },
   "20.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.3333,
-    "style_score": 1.0
+    "style_score": 1.0,
+    "object_num": 3,
+    "total_attrs": 11
   },
   "201.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 17
   },
   "202.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 21
   },
   "203.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 5
   },
   "204.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 9
   },
   "205.png": {
     "semantic_coverage": 0.6667,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 9
   },
   "206.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 8
   },
   "208.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 7
   },
   "209.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 16
   },
   "21.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.3333,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 13,
+    "total_attrs": 31
   },
   "210.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 6
   },
   "211.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 5
   },
   "212.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 12
   },
   "213.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.25,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 11
   },
   "215.png": {
-    "semantic_coverage": 1.0,
+    "semantic_coverage": 0.8889,
     "relation_validity": 0.75,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 9
   },
   "216.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.75,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 9
   },
   "217.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 11
   },
   "218.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 5,
+    "total_attrs": 17
   },
   "219.png": {
     "semantic_coverage": 0.6154,
     "relation_validity": 0.6,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 7,
+    "total_attrs": 13
   },
   "22.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 12
   },
   "220.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 6
   },
   "221.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 8
   },
   "222.png": {
-    "semantic_coverage": 1.0,
+    "semantic_coverage": 0.6667,
     "relation_validity": 0.6667,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 13,
+    "total_attrs": 39
   },
   "223.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 5,
+    "total_attrs": 17
   },
   "225.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 5,
+    "total_attrs": 20
   },
   "226.png": {
     "semantic_coverage": 0.8889,
     "relation_validity": 0.75,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 9
   },
   "227.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 7
   },
   "228.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 9
   },
   "229.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 10
   },
   "231.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 12
   },
   "233.png": {
     "semantic_coverage": 0.75,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 4
   },
   "235.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 24
   },
   "236.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 17
   },
   "237.png": {
-    "semantic_coverage": 0.6,
+    "semantic_coverage": 0.4,
     "relation_validity": 0.4,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 6,
+    "total_attrs": 10
   },
   "238.png": {
     "semantic_coverage": 0.75,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 8
   },
   "24.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 5
   },
   "240.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 9
   },
   "241.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 9
   },
   "242.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 5
   },
   "243.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 5
   },
   "244.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 3
   },
   "245.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.3333,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 10
   },
   "247.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.6,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 15
   },
   "248.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.6667,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 18
   },
   "249.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 6,
+    "total_attrs": 18
   },
   "25.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 11
   },
   "250.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.6667,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 10
   },
   "251.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 6
   },
   "253.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 8
   },
   "254.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 13
   },
   "255.png": {
     "semantic_coverage": 0.75,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 8
   },
   "256.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 8
   },
   "257.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 8
   },
   "258.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 7
   },
   "259.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 9
   },
   "261.png": {
     "semantic_coverage": 0.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 4
   },
   "262.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.6667,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 9
   },
   "263.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 5,
+    "total_attrs": 16
   },
   "264.png": {
     "semantic_coverage": 0.5,
     "relation_validity": 0.6667,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 6,
+    "total_attrs": 8
   },
   "265.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 12
   },
   "269.png": {
-    "semantic_coverage": 0.8571,
+    "semantic_coverage": 0.7143,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 7
   },
   "27.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.6667,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 5,
+    "total_attrs": 15
   },
   "270.png": {
-    "semantic_coverage": 0.75,
+    "semantic_coverage": 0.5,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 8,
+    "total_attrs": 16
   },
   "271.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 6,
+    "total_attrs": 18
   },
   "272.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.3333,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 6
   },
   "273.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 6
   },
   "274.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 8
   },
   "275.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.6667,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 8
   },
   "276.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 5,
+    "total_attrs": 20
   },
   "277.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 5,
+    "total_attrs": 16
   },
   "278.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 8
   },
   "279.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 6
   },
   "28.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 9
   },
   "280.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 3
   },
   "281.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.6667,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 6
   },
   "284.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 8
   },
   "288.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 3
   },
   "29.png": {
     "semantic_coverage": 0.9091,
     "relation_validity": 0.6667,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 11
   },
   "290.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 6,
+    "total_attrs": 20
   },
   "291.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 5,
+    "total_attrs": 13
   },
   "292.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 4
   },
   "293.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 12
   },
   "294.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.75,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 4
   },
   "296.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 5,
+    "total_attrs": 15
   },
   "297.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 6
   },
   "298.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 5
   },
   "3.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 10
   },
   "30.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.6667,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 6,
+    "total_attrs": 21
   },
   "300.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 6,
+    "total_attrs": 28
   },
   "301.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 6
   },
   "302.png": {
     "semantic_coverage": 0.6,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 5
   },
   "303.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 6
   },
   "304.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.6667,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 13
   },
   "305.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 10
   },
   "306.png": {
     "semantic_coverage": 0.6667,
     "relation_validity": 0.3333,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 6
   },
   "307.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.75,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 8
   },
   "308.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 10
   },
   "309.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 6
   },
   "31.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 13
   },
   "311.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 12
   },
   "312.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 5,
+    "total_attrs": 18
   },
   "314.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 6
   },
   "315.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 6
   },
   "316.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 4
   },
   "317.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 12
   },
   "318.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 5
   },
   "319.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 13
   },
   "32.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 3
   },
   "321.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 8
   },
   "322.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 12
   },
   "324.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 9
   },
   "326.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 7
   },
   "327.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 3
   },
   "328.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 17
   },
   "329.png": {
     "semantic_coverage": 0.7143,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 7
   },
   "33.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 10
   },
   "330.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 6
   },
   "331.png": {
     "semantic_coverage": 0.9286,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 5,
+    "total_attrs": 14
   },
   "332.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 5,
+    "total_attrs": 21
   },
   "333.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 12
   },
   "334.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.3333,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 7
   },
   "335.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 8
   },
   "336.png": {
     "semantic_coverage": 0.75,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 7,
+    "total_attrs": 12
   },
   "337.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 14
   },
   "338.png": {
     "semantic_coverage": 0.6667,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 6
   },
   "339.png": {
     "semantic_coverage": 0.6667,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 5,
+    "total_attrs": 9
   },
   "34.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 6
   },
   "340.png": {
-    "semantic_coverage": 0.6,
+    "semantic_coverage": 0.4,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 6,
+    "total_attrs": 10
   },
   "341.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 7
   },
   "343.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 8
   },
   "344.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 6
   },
   "345.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 12
   },
   "346.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.8
+    "style_score": 0.8,
+    "object_num": 3,
+    "total_attrs": 11
   },
   "347.png": {
     "semantic_coverage": 0.6667,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 5,
+    "total_attrs": 9
   },
   "348.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.75,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 12
   },
   "349.png": {
-    "semantic_coverage": 0.75,
+    "semantic_coverage": 0.5,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 4
   },
   "35.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.4286,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 5,
+    "total_attrs": 16
   },
   "350.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 13
   },
   "351.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 5,
+    "total_attrs": 14
   },
   "352.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 5
   },
   "353.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 4
   },
   "354.png": {
-    "semantic_coverage": 0.75,
+    "semantic_coverage": 0.5,
     "relation_validity": 0.2,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 8
   },
   "355.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 11
   },
   "356.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 12
   },
   "358.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 10
   },
   "359.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 2
   },
   "36.png": {
     "semantic_coverage": 0.6667,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 6
   },
   "360.png": {
     "semantic_coverage": 0.6,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 5
   },
   "361.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 6
   },
   "362.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.8,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 5
   },
   "363.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 14
   },
   "364.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 13
   },
   "365.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 8
   },
   "366.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 5
   },
   "368.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.6667,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 8
   },
   "369.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.6667,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 5
   },
   "37.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 10
   },
   "370.png": {
-    "semantic_coverage": 1.0,
+    "semantic_coverage": 0.875,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 8
   },
   "373.png": {
     "semantic_coverage": 0.5789,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 11,
+    "total_attrs": 19
   },
   "374.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.25,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 4
   },
   "375.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 7
   },
   "376.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 6,
+    "total_attrs": 18
   },
   "377.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 5,
+    "total_attrs": 16
   },
   "378.png": {
-    "semantic_coverage": 1.0,
+    "semantic_coverage": 0.6667,
     "relation_validity": 0.4286,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 9
   },
   "38.png": {
     "semantic_coverage": 0.75,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 4
   },
   "380.png": {
-    "semantic_coverage": 1.0,
+    "semantic_coverage": 0.6667,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 12
   },
   "381.png": {
-    "semantic_coverage": 0.75,
+    "semantic_coverage": 0.5,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 4
   },
   "383.png": {
-    "semantic_coverage": 0.6667,
+    "semantic_coverage": 0.3333,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 6
   },
   "384.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 4
   },
   "385.png": {
     "semantic_coverage": 0.6667,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 6
   },
   "386.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.6667,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 9
   },
   "387.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 7
   },
   "389.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 4
   },
   "39.png": {
-    "semantic_coverage": 0.6667,
+    "semantic_coverage": 0.4444,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 5,
+    "total_attrs": 9
   },
   "390.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.25,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 7
   },
   "391.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 5
   },
   "392.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 12
   },
   "393.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 6
   },
   "395.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 8
   },
   "396.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 8
   },
   "397.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 6,
+    "total_attrs": 28
   },
   "398.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 3
   },
   "399.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 9
   },
   "4.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 6,
+    "total_attrs": 18
   },
   "40.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 8
   },
   "401.png": {
     "semantic_coverage": 0.5556,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 5,
+    "total_attrs": 9
   },
   "404.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 4
   },
   "405.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 5
   },
   "406.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.6667,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 5,
+    "total_attrs": 16
   },
   "407.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 4
   },
   "408.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.25,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 4
   },
   "41.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.3333,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 7
   },
   "410.png": {
-    "semantic_coverage": 1.0,
+    "semantic_coverage": 0.9167,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 12
   },
   "411.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 4
   },
   "412.png": {
-    "semantic_coverage": 0.7143,
+    "semantic_coverage": 0.4286,
     "relation_validity": 0.3333,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 7
   },
   "413.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 5
   },
   "415.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 9
   },
   "417.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 8
   },
   "418.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 10
   },
   "42.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.8,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 14
   },
   "420.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.3333,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 13
   },
   "421.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 6
   },
   "422.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 8,
+    "total_attrs": 24
   },
   "423.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.75,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 14
   },
   "424.png": {
     "semantic_coverage": 0.8,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 7,
+    "total_attrs": 15
   },
   "425.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 8
   },
   "426.png": {
     "semantic_coverage": 0.5,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 5,
+    "total_attrs": 8
   },
   "427.png": {
     "semantic_coverage": 0.3636,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 8,
+    "total_attrs": 11
   },
   "428.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 10
   },
   "429.png": {
     "semantic_coverage": 0.75,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 8
   },
   "43.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 4
   },
   "431.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.75,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 12
   },
   "432.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 6
   },
   "433.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 4
   },
   "434.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 11
   },
   "436.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 12
   },
   "437.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.6667,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 3
   },
   "438.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 6,
+    "total_attrs": 18
   },
   "439.png": {
-    "semantic_coverage": 0.75,
+    "semantic_coverage": 0.5,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 4
   },
   "44.png": {
-    "semantic_coverage": 0.5,
+    "semantic_coverage": 0.3333,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 6
   },
   "440.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 10
   },
   "442.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 6
   },
   "443.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 6
   },
   "444.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.4,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 5,
+    "total_attrs": 15
   },
   "445.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 7
   },
   "446.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.3333,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 8
   },
   "447.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 11
   },
   "448.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 5,
+    "total_attrs": 15
   },
   "449.png": {
     "semantic_coverage": 0.4,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 5
   },
   "45.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 10
   },
   "450.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 5,
+    "total_attrs": 25
   },
   "451.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 5,
+    "total_attrs": 15
   },
   "452.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 10
   },
   "453.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 7
   },
   "454.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 11
   },
   "455.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.6667,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 16
   },
   "456.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 6
   },
   "457.png": {
     "semantic_coverage": 0.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 5,
+    "total_attrs": 5
   },
   "459.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 12
   },
   "460.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 11
   },
   "461.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 8
   },
   "462.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 7
   },
   "463.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 9
   },
   "464.png": {
     "semantic_coverage": 0.6,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 5
   },
   "465.png": {
     "semantic_coverage": 0.4286,
     "relation_validity": 0.3333,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 5,
+    "total_attrs": 7
   },
   "466.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 12
   },
   "467.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 6
   },
   "468.png": {
-    "semantic_coverage": 0.6667,
+    "semantic_coverage": 0.3333,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 9
   },
   "469.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 3
   },
   "47.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 6,
+    "total_attrs": 22
   },
   "471.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 8
   },
   "473.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 10
   },
   "474.png": {
-    "semantic_coverage": 1.0,
+    "semantic_coverage": 0.25,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 4
   },
   "475.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 10
   },
   "476.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 9
   },
   "477.png": {
-    "semantic_coverage": 0.7778,
+    "semantic_coverage": 0.6667,
     "relation_validity": 0.6667,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 5,
+    "total_attrs": 9
   },
   "478.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 5
   },
   "479.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.3333,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 3
   },
   "48.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 8
   },
   "480.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 6
   },
   "481.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.6,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 13
   },
   "482.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.75,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 7
   },
   "483.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 6
   },
   "487.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 8
   },
   "489.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 4
   },
   "49.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.8
+    "style_score": 0.8,
+    "object_num": 2,
+    "total_attrs": 8
   },
   "491.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.6667,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 13
   },
   "492.png": {
-    "semantic_coverage": 0.6667,
+    "semantic_coverage": 0.4444,
     "relation_validity": 0.6667,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 5,
+    "total_attrs": 9
   },
   "493.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 8
   },
   "494.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 16
   },
   "495.png": {
-    "semantic_coverage": 0.6667,
+    "semantic_coverage": 0.3333,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 6
   },
   "496.png": {
     "semantic_coverage": 0.6,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 5
   },
   "497.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 5,
+    "total_attrs": 15
   },
   "499.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 5
   },
   "5.png": {
     "semantic_coverage": 0.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 3
   },
   "500.png": {
     "semantic_coverage": 0.8,
     "relation_validity": 0.6,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 5
   },
   "501.png": {
     "semantic_coverage": 0.8,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 10
   },
   "502.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 16
   },
   "503.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.6667,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 6,
+    "total_attrs": 21
   },
   "504.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 10
   },
   "505.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.8333,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 22
   },
   "506.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.25,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 2
   },
   "507.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 12
   },
   "508.png": {
     "semantic_coverage": 0.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 5,
+    "total_attrs": 5
   },
   "509.png": {
-    "semantic_coverage": 1.0,
+    "semantic_coverage": 0.6667,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 7,
+    "total_attrs": 21
   },
   "510.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 5
   },
   "511.png": {
     "semantic_coverage": 0.875,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 8
   },
   "512.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 12
   },
   "514.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 12
   },
   "515.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 11
   },
   "518.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.3333,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 6
   },
   "52.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.6667,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 5,
+    "total_attrs": 18
   },
   "520.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 17
   },
   "521.png": {
-    "semantic_coverage": 0.7778,
+    "semantic_coverage": 0.6667,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 9
   },
   "522.png": {
-    "semantic_coverage": 1.0,
+    "semantic_coverage": 0.6667,
     "relation_validity": 0.25,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 6,
+    "total_attrs": 18
   },
   "524.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 14
   },
   "526.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 5,
+    "total_attrs": 15
   },
   "527.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.8
+    "style_score": 0.8,
+    "object_num": 3,
+    "total_attrs": 9
   },
   "528.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 6
   },
   "529.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.3333,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 9
   },
   "53.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 6
   },
   "530.png": {
     "semantic_coverage": 0.9286,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 14
   },
   "532.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 12
   },
   "533.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 8
   },
   "534.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 8
   },
   "535.png": {
     "semantic_coverage": 0.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 5,
+    "total_attrs": 5
   },
   "537.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 10
   },
   "54.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.6667,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 6
   },
   "540.png": {
-    "semantic_coverage": 0.6667,
+    "semantic_coverage": 0.5,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 6
   },
   "541.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 16
   },
   "543.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 9
   },
   "544.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.4,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 5,
+    "total_attrs": 18
   },
   "545.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 6,
+    "total_attrs": 28
   },
   "546.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 4
   },
   "548.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 7
   },
   "549.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 6
   },
   "55.png": {
     "semantic_coverage": 0.6,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 5
   },
   "550.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.25,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 11
   },
   "551.png": {
     "semantic_coverage": 0.75,
     "relation_validity": 0.3333,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 8
   },
   "552.png": {
     "semantic_coverage": 0.8889,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 9
   },
   "553.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 8
   },
   "554.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 10
   },
   "555.png": {
     "semantic_coverage": 0.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 5,
+    "total_attrs": 5
   },
   "556.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 12
   },
   "557.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 6
   },
   "559.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 4
   },
   "560.png": {
     "semantic_coverage": 0.8824,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 7,
+    "total_attrs": 17
   },
   "58.png": {
     "semantic_coverage": 0.6667,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 6,
+    "total_attrs": 12
   },
   "59.png": {
     "semantic_coverage": 0.625,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 8
   },
   "61.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 9
   },
   "62.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 8
   },
   "63.png": {
     "semantic_coverage": 0.75,
     "relation_validity": 0.3333,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 8
   },
   "64.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.6667,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 3
   },
   "65.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 5
   },
   "67.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 8
   },
   "68.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.25,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 6,
+    "total_attrs": 20
   },
   "7.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.6667,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 4
   },
   "70.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 9
   },
   "72.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.6667,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 3
   },
   "73.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 7
   },
   "74.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 11
   },
   "75.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 9
   },
   "76.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 9
   },
   "78.png": {
-    "semantic_coverage": 1.0,
+    "semantic_coverage": 0.6667,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 12
   },
   "79.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 6
   },
   "80.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 4
   },
   "81.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 4
   },
   "83.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 9
   },
   "84.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 10
   },
   "85.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 8
   },
   "86.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 5,
+    "total_attrs": 15
   },
   "87.png": {
-    "semantic_coverage": 1.0,
+    "semantic_coverage": 0.8333,
     "relation_validity": 0.25,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 6
   },
   "89.png": {
-    "semantic_coverage": 1.0,
+    "semantic_coverage": 0.2,
     "relation_validity": 0.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 10
   },
   "9.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 1,
+    "total_attrs": 5
   },
   "90.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 7
   },
   "91.png": {
-    "semantic_coverage": 1.0,
+    "semantic_coverage": 0.6667,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 6,
+    "total_attrs": 18
   },
   "92.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.4,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 6
   },
   "93.png": {
     "semantic_coverage": 0.9,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 10
   },
   "94.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 9
   },
   "95.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 0.5,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 3,
+    "total_attrs": 7
   },
   "96.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 8
   },
   "97.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 2,
+    "total_attrs": 8
   },
   "98.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 12
   },
   "99.png": {
     "semantic_coverage": 1.0,
     "relation_validity": 1.0,
-    "style_score": 0.6
+    "style_score": 0.6,
+    "object_num": 4,
+    "total_attrs": 7
   }
 }

@@ -162,7 +162,7 @@ import torch
 
 
 
-def calculate_hybrid_metrics(image_path, llm_json_output, original_prompt, clip_model=None):
+def calculate_hybrid_metrics(llm_json_output, image_path=None,original_prompt=None, clip_model=None):
     """
     增强版混合指标计算
     新增指标：
@@ -189,6 +189,9 @@ def calculate_hybrid_metrics(image_path, llm_json_output, original_prompt, clip_
     # ================== 1. 语义覆盖度增强 ================== 
     total_elements = 0
     matched_elements = 0
+    # object num, 0 if none
+    o_num = len(eval_data["objects"]) if "objects" in eval_data else 0
+
     
     for obj in eval_data["objects"]:
         # 对象存在性
@@ -199,7 +202,7 @@ def calculate_hybrid_metrics(image_path, llm_json_output, original_prompt, clip_
             if "attributes" in obj:
                 total_elements += len(obj["attributes"])
                 # 假设原始prompt包含属性（需实现属性提取逻辑）
-                matched_attrs = sum(1 for attr_value in obj["attributes"].values() if attr_value != "unknown")
+                matched_attrs = sum(1 for attr_value in obj["attributes"].values() if attr_value)
                 matched_elements += matched_attrs
         total_elements += 1  # 对象存在性本身算1个元素
     
@@ -241,7 +244,9 @@ def calculate_hybrid_metrics(image_path, llm_json_output, original_prompt, clip_
     return {
         "semantic_coverage": round(semantic_coverage, 4),
         "relation_validity": round(relation_validity, 4),
-        "style_score": round(style_score, 4)
+        "style_score": round(style_score, 4),
+        "object_num": o_num,
+        "total_attrs": total_elements
     }
 
 

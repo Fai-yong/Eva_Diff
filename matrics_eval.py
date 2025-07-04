@@ -47,10 +47,9 @@ def save_scores(file_base, all_metrics, results_tag):
 
 
 # load prompts.txt
-prompt_file = "/usr1/home/s124mdg44_01/diffusion/eva_diff/dataset/prompt/prompts.txt"
-
-def matrics_eval(file_base, results_tag, image_dir, prompt_file):
-    prompts = eval_func.get_prompts(prompt_file)
+prompt_file = "prompts.txt"
+def matrics_eval(file_base, results_tag, image_dir, prompt_file=None):
+    # prompts = eval_func.get_prompts(prompt_file)
 
     # load clip model
     # from sentence_transformers import SentenceTransformer
@@ -63,9 +62,9 @@ def matrics_eval(file_base, results_tag, image_dir, prompt_file):
 
     # evaluate each response
     for key, value in tqdm(results.items()):
-        index = int(key.split(".")[0])
-        original_prompt = prompts[index]
-        image_path = os.path.join(image_dir, key)
+        # index = int(key.split(".")[0])
+        # original_prompt = prompts[index]
+        # image_path = os.path.join(image_dir, key)
 
         # if eval_data['objects'] is None, print eval_data and exit
         if value is None:
@@ -73,7 +72,7 @@ def matrics_eval(file_base, results_tag, image_dir, prompt_file):
         
         # try and except
         try:
-            metrics = eval_func.calculate_hybrid_metrics(image_path, value, original_prompt)
+            metrics = eval_func.calculate_hybrid_metrics(value)
             all_metrics[key] = metrics
         except Exception as e:
             print(f"Error evaluating {key}: {tag}, {file_base}")
