@@ -133,7 +133,7 @@ df['subconfig'] = pd.Categorical(df['subconfig'], categories=cat_order, ordered=
 # 1. Bar plots (mean ± std) for semantic_coverage & relation_validity
 # --------------------------------------------------
 
-bar_metrics = ["semantic_coverage", "relation_validity"]
+bar_metrics = ["semantic_coverage", "relation_validity", "style_score"]
 for metric in bar_metrics:
     plt.figure(figsize=(16, 8))
     metric_df = df[df['metric'] == metric]
@@ -143,7 +143,7 @@ for metric in bar_metrics:
     sns.despine(ax=ax)
     ax.set_ylabel("Mean Score")
     plt.title(f"{metric_labels[metric]} across Subconfigs and MLLMs")
-    ax.set_xlabel("Dataset Configuration")
+    ax.set_xlabel("SD Model Version")
     plt.xticks(rotation=45, ha='right')
     plt.legend(title='MLLM', loc='upper right', bbox_to_anchor=(1.15, 1.0), frameon=False)
     Path('summary_plots').mkdir(exist_ok=True)
@@ -154,7 +154,7 @@ for metric in bar_metrics:
 # --------------------------------------------------
 # 2. Heatmaps for semantic_coverage and relation_validity (mean & std)
 # --------------------------------------------------
-heat_metrics = ["semantic_coverage", "relation_validity"]
+heat_metrics = ["semantic_coverage", "relation_validity", "style_score"]
 for metric in heat_metrics:
     for stat in ['mean', 'std']:
         pivot = df[df['metric'] == metric].pivot(index='subconfig', columns='tag', values=stat).loc[cat_order]
@@ -164,7 +164,7 @@ for metric in heat_metrics:
                     annot_kws={'size':10}, linewidths=0.4, linecolor='white', cbar_kws={'shrink':0.8})
         plt.title(f"Heatmap of {metric_labels[metric]} {stat.upper()}")
         plt.xlabel('MLLM')
-        plt.ylabel('Dataset Configuration')
+        plt.ylabel('SD Model Version')
         plt.tight_layout()
         plt.savefig(f"summary_plots/{metric}_{stat}_heatmap.png", dpi=300)
         plt.close()
@@ -187,10 +187,12 @@ plt.savefig('summary_plots/count_line.png', dpi=300)
 plt.close()
 
 # --------------------------------------------------
-# 4. Violin plot for style_score distributions (aggregate)
+# 4. Violin plot for semantic_coverage, relation_validity, style_score distributions (aggregate)
 #     Need raw data
 # --------------------------------------------------
 all_style_records = []
+all_coverage_records = []
+all_relation_records = []
 for base in results_bases:
     for tag in results_tags:
         scores = load_scores(base, tag)
@@ -201,16 +203,53 @@ for base in results_bases:
                 all_style_records.append({'subconfig': subconfig_labels[results_bases.index(base)],
                                            'tag': tag,
                                            'style_score': metrics_dict['style_score']})
+            if 'semantic_coverage' in metrics_dict:
+                all_coverage_records.append({'subconfig': subconfig_labels[results_bases.index(base)],
+                                           'tag': tag,
+                                           'semantic_coverage': metrics_dict['semantic_coverage']})
+            if 'relation_validity' in metrics_dict:
+                all_relation_records.append({'subconfig': subconfig_labels[results_bases.index(base)],
+                                           'tag': tag,
+                                           'relation_validity': metrics_dict['relation_validity']})
+
+coverage_df = pd.DataFrame(all_coverage_records)
+relation_df = pd.DataFrame(all_relation_records)
 style_df = pd.DataFrame(all_style_records)
+
+# style_score
 plt.figure(figsize=(8, 6))
 sns.violinplot(data=style_df, x='tag', y='style_score', palette=colors, inner='quartile', alpha=0.7,
                linewidth=0.8)
 sns.despine()
-plt.title('Style Score Distribution across MLLMs (All Dataset Configurations)')
+plt.title('Style Score Distribution')
 plt.xlabel('MLLM')
 plt.ylabel('Style Score')
 plt.tight_layout()
 plt.savefig('summary_plots/style_score_violin.png', dpi=300)
+plt.close()
+
+# semantic_coverage
+plt.figure(figsize=(8, 6))
+sns.violinplot(data=coverage_df, x='tag', y='semantic_coverage', palette=colors, inner='quartile', alpha=0.7,
+               linewidth=0.8)
+sns.despine()
+plt.title('Semantic Coverage Distribution')
+plt.xlabel('MLLM')
+plt.ylabel('Semantic Coverage')
+plt.tight_layout()
+plt.savefig('summary_plots/semantic_coverage_violin.png', dpi=300)
+plt.close()
+
+# relation_validity
+plt.figure(figsize=(8, 6))
+sns.violinplot(data=relation_df, x='tag', y='relation_validity', palette=colors, inner='quartile', alpha=0.7,
+               linewidth=0.8)
+sns.despine()
+plt.title('Relation Validity Distribution')
+plt.xlabel('MLLM')
+plt.ylabel('Relation Validity')
+plt.tight_layout()
+plt.savefig('summary_plots/relation_validity_violin.png', dpi=300)
 plt.close()
 
 # --------------------------------------------------
